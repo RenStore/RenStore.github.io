@@ -1,0 +1,365 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap');
+
+.judul{
+    font-family: 'Teko', sans-serif;
+    color: aliceblue;
+    font-size: 30px;
+    padding: 15px 0 0 0;
+    padding-left: 0;
+}
+.bungkuslogoatas {
+    display: flex;
+    gap: 1rem;
+}
+.gariskuning {
+    background-color: yellow;
+    height: 15px;
+}
+.haldepan {
+    width: 100%;
+    height:auto;
+    background-color: black;
+    padding: 5px 0 0 0;
+}
+.fotofanny {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+.layanan {
+    height: 100%;
+    width: auto;
+    background: linear-gradient(rgb(153, 120, 77),rgb(29, 28, 28));
+    padding: 0 0 10% 0;
+    display: flex;
+    flex-direction: column;
+}
+.register {
+    padding: 0 0 40px 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgb(81, 81, 81),rgb(24, 24, 24));
+}
+.bayangan {
+    height: 148vh;
+    width: 100%;
+    background-color: rgb(58, 57, 57);
+    z-index: 20;
+    position: absolute;
+    top: 250vh;
+    opacity: 70%;
+}
+.bungkussyarat {
+    align-items: center;
+    display: flex;
+    z-index: 1;
+    position: absolute;
+    top: 250vh;
+}
+.bgsyarat {
+    max-width: 222vh;
+    max height: 100vh;
+    z-index: 1;
+}
+.dicariworker {
+    display: grid;
+    text-align: center;
+    padding: 6rem 0 0 0;
+    z-index: 20;
+}
+.persyaratanwork{
+    justify-content: center;
+    display: flex;
+    padding: 50px 0 3rem 0;
+    z-index: 20;
+
+}
+.btnregister {
+    text-decoration: none;
+    color: blue;
+    font-family: "teko",sans-serif;
+    font-size: 16;
+    padding: 5px 0 0 0;
+    width: fit-content;
+    z-index: 20;
+}
+.btnregister:hover{
+    color: white;
+    transition: 0.3s;
+}
+.dicari{
+    font-size: 40px;
+    font-family: "Audiowide",sans-serif;
+    color: rgb(240, 152, 0);
+    z-index: 20;
+}
+.syarat {
+    font-size: 17px;
+    font-family: "Audiowide",sans-serif;
+    color: rgb(255, 255, 255);
+    z-index: 20;
+    
+}
+.syaratnya {
+    height: 60vh;
+    width: 80vh;
+    background-color: rgb(153, 120, 77);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border-radius: 40px;
+    border: 6px solid rgb(255, 174, 0);
+    align-items: center;
+    z-index: 20;
+   
+}
+.syaratnya p{
+    color: white;
+    font-size: 18px;
+    font-family: "Audiowide",sans-serif;
+
+}
+.sdank{
+    font-size: 33px;
+    padding: 10px;
+    color: rgb(131, 17, 17);
+    font-family: "Audiowide",sans-serif;
+    z-index: 20;
+    font-weight: bold;
+}
+span {
+    display: flex;
+    justify-content: center;
+    width:50%;
+    height: 100%;
+    padding: 5% 0 0 10.5%;
+}
+.judulopening{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    padding: 5% 0 0 0 ;
+    z-index: 7;
+}
+.grandopen {
+    font-size: 40px;
+    font-family: "audiowide",sans-serif;
+    color: rgb(255, 162, 2);
+    font-weight: bold;
+}
+.tpromo {
+    font-size: 17px;
+    color: rgb(255, 255, 255);
+    font-family: "audiowide",sans-serif;
+}
+.logoatas {
+    border-radius: 35px ;
+    border: 4px solid blueviolet;
+}
+.navbar {
+    display: flex;
+    background-color: rgb(40, 46, 51);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    padding: 2rem;
+    
+}
+.btn ul li {
+    list-style: none;
+}
+.btn ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.btn {
+    display: flex;
+    gap: 3rem;
+    padding: 25px 0 0 50%;
+   font-family:"audiowide",sans-serif;
+}
+footer {
+    width: auto;    
+    background-color: black;
+    display: flex;
+    padding: 3%;
+    gap: 5%;
+    justify-content: center;
+}
+.listfoot {
+    font-family: "Audiowide", sans-serif;
+}
+.listfoot ul li {
+    list-style: none;
+    align-items: center;
+}
+.listfoot ul li a {
+    text-decoration: none;;
+    color: white;
+}
+.judul2{
+    font-family: 'Teko', sans-serif;
+    color: aliceblue;
+    font-size: 30px;
+    padding: 18px 0 0 0;
+    padding-left: 20px;
+}
+.logobawah {
+    border-radius: 35px ;
+    border: 4px solid blueviolet;
+}
+.logofoot{
+    display: flex;
+    padding: 0 0 0 35px;
+    align-items: center;
+}
+.create{
+    padding: 0 0 0 30px;
+}
+.create p {
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    
+}
+.fotokita {
+    height: 50px;
+    width: 50px;
+    padding: 10px 0 0 0;
+
+}
+.foto1 {
+    display: flex;
+    gap: 2.75rem;
+}
+.foto1 img{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 30px;
+    object-fit: cover;
+    border: 4px solid rgb(228, 228, 228);
+}
+.namakita {
+    width: 35.5vh;
+    display: flex;
+    gap: 3vh;
+    padding: 10px 0 0 0;
+    justify-content: center;
+    text-align: center;
+    
+}
+.namakita p {
+    font-size: 11px;
+    color: white;
+    text-align: center;
+    font-family: 'Audiowide', sans-serif;
+}
+.pembatas {
+    height: 100px;
+    background-color: yellow;
+    width: 5px;
+}
+.pembatas2bwh{
+    height: 100px;
+    background-color: yellow;
+    width: 5px;
+    margin: 0 0 0 16%;
+}
+.pembatas3bwh{
+    height: 100px;
+    background-color: yellow;
+    width: 5px;
+}
+.deskrip {
+    color: white;
+    font-size: 15px;
+    font-weight: lighter;
+    font-family: "Teko",sans-serif;
+}
+.btnnav:hover{
+    color: rgb(238, 255, 0);
+}
+.btnnav::after{
+    content: "";
+    width: 0;
+    height: 4px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    transition: width .3s;
+}
+.btnnav:hover::after{
+    width: 100%;
+}
+.pendiamond {
+    height: 363px;
+    background-color: rgb(36, 32, 32);
+    width: 203px;
+    left: 8rem;
+    top: 16rem;
+    border: 5px yellow solid;
+}
+.diamond {
+    display: flex;
+    gap: 4rem;
+    padding: 5% 0 0 55%;
+}
+.penjoki{
+    height: 363px;
+    background-color: rgb(36, 32, 32);
+    width: 203px;
+    text-align: center;
+    border: 5px yellow solid;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.joki{
+    display: flex;
+    gap: 4rem;
+    padding: 5% 0 0 15%;
+}
+.penjoki p{
+    font-family: "audiowide",sans-serif;
+    text-align: center;
+}
+.pendiamond p {
+    font-family: "audiowide",sans-serif;
+    text-align: center;
+}
+.deskpenjoki{
+    text-align: center;
+    font-size: 20px;
+    color: aliceblue;
+    padding: 5px;
+}
+.diskonh {
+    font-size: 28px;
+    text-align: center;
+    color: yellow;
+    padding: 2rem 0 0 0;
+    
+}
+.diskonh2 {
+    font-size: 28px;
+    text-align: center;
+    color: yellow;
+    padding: 2rem 0 0 0 ;
+}
+.desktopup {
+    text-align: center;
+    padding: 1rem 80px 80px 35px;
+    font-size: 20px;
+    color: aliceblue;
+    display: grid;
+}

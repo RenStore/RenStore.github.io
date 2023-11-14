@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register penerimaan worker</title>
+    <link rel="stylesheet" href="register.css">
+    <link href="https://script.google.com/macros/s/AKfycbyB5oFEd7q_Zj6MHUZrHz0HBdx3ZW0k1o3MyrA8mGvONV7fzpWbDk5xFnmBz1EGmg8nPw/exec">
+</head>
+<body>
+   <span>
+    <form name="data-register-worker-ren-store" id="form" action="https://script.google.com/macros/s/AKfycbyMHSgpht3NNZefLi7m-21aMi70TmAbgfzSOOvIV2op4cAMHZSdfdgtuLluw4-pD3n2bg/exec">
+        <h4>REGISTER</h4>
+        <div class="bungkus">
+            <label id="label">Masukan Nama Anda</label>
+            <input placeholder="Nama Anda" name="Nama" id="input1" type="text">
+            <div id="notif"></div>
+        </div>
+        <div class="bungkus">
+            <label id="label">Masukan Umur Anda</label>
+            <input placeholder="Umur Anda" name="Umur" id="input2" type="tel">
+            <div id="notif2"></div>
+            <div id="notifumur"></div>
+        </div>
+        <div class="bungkus">
+            <label id="label">Masukan Email Anda</label>
+            <input id="email2" placeholder="Email Anda" name="Email" type="email">
+        </div>
+        <div class="bungkus">
+            <label id="label">Masukan Nomer Hp Anda</label>
+            <input placeholder="Nomer Anda" id="input3" name="Nomer_Hp" type="text">
+            <div id="notif3"></div>
+        </div>
+        <div class="bungkus">
+            <label id="label">Pilih jenis kelamin Anda</label>
+            <select id="select" name="Jenis_Kelamin">
+                <option>Laki-Laki</option>
+                <option>Perempuan</option>
+            </select>
+            <div class="container-button" id="container-button">
+                <button type="submit" id="btn-submit">Submit</button>
+            </div>
+        </div>
+    </form>
+   </span>
+<script src="script.js"></script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwQS_2Nap79e2I_4vgi9iXJ_u3o9t4c57qwYOgKeIUOLWyKbfKqSvs_3rPGpKAtFwETaw/exec';
+    const form = document.forms['data-register-worker-ren-store'];
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => console.log('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+  
+</body>
+</html>

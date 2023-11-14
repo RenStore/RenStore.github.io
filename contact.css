@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+body {
+    background-color: rgb(7, 109, 150);
+    overflow:hidden
+}
+.background {
+    height: auto;
+    width: 100%;
+    z-index: 1;
+    position: absolute;
+}
+.bgfanny {
+    object-fit: cover;
+    max-width: 100%;
+    max-height: 100%;
+    
+}
+nav {
+    position: fixed;
+    height:100%;
+    width: 150px;
+    background: linear-gradient( rgb(40, 46, 51),rgb(244, 110, 0));
+    border-right: 8px solid yellow;
+    z-index: 3;
+}
+nav p{
+    color: rgb(233, 152, 2);
+    font-family: sans-serif;
+    font-size: 15px;
+    padding: 10px 0 10px 23px ;
+    background-color: rgb(77, 73, 73);
+    font-weight: bold;
+    font-family: "audiowide",sans-serif;
+}
+nav:hover{
+    background-color: black;
+    transition: .3s;
+}
+.butonnav:hover{
+    color: white;
+}
+.butonnav::after{
+    content:"";
+    width: 0;
+    height: 5px;
+    background-color: yellow;
+    display: flex;
+    transition:width 0.3s;
+
+}
+.butonnav:hover::after{
+    width: 100%;
+}
+.butonnav {
+    font-family: 'Audiowide', sans-serif;
+    color: black;
+}
+section {
+    display: flex;
+    justify-content: center;
+    z-index: 10;
+    background-color: black;
+    height: 100vh;
+    align-items:center;
+}
+.linear{
+    height: 514px;
+    width: 840px;
+    background: linear-gradient(rgba(0, 0, 0, 0),black);
+    position: absolute;
+    z-index: 0;
+    border-radius: 30px;
+}
+.jadi1 {
+    padding: 50px 50px 100px 50px;
+    border-radius: 35px;
+    box-shadow:  -6px 6px 10px rgb(5, 5, 5), 6px -6px 10px;
+    background-image: url(fannyset.jpg);
+    z-index: 10;
+}
+.fotokita {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+
+}
+.fotokita p {
+    color: rgb(255, 255, 255);
+    z-index: 3;
+    -webkit-text-stroke: 0.5px black;
+}
+.fotoshandy{
+    width: 200px;
+    height: 350px;
+    gap: 2rem;
+    border: 7px solid rgb(110, 106, 106);
+    z-index: 3;
+}
+.fotoshandy img {
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+.container{ 
+    display: flex;  
+    gap: 1rem;
+    padding: 3px;
+}
+.bungkusbtn {
+    gap: 1rem;
+}
+.container2 {
+    display: flex;
+    gap: 1rem;
+    padding: 3px;
+
+}
+.container2 img {
+    width: 50px;
+}
+.container3 {
+    display: flex;
+    gap: 1rem;
+    padding: 3px;
+}
+.container3 img {
+    width: 50px;
+}
+.a:hover{
+    opacity: 50%;
+}
+.container img{
+    width: 50px;
+}
+.fotoshandy p {
+    font-size: 16px;
+    font-family: 'Audiowide', sans-serif;
+    padding: 15px 0 0 0;
+}   
+
+.fotorizy{
+    width: 200px;
+    height: 350px;
+    gap: 2rem;
+    border: 7px solid rgb(110, 106, 106);
+    z-index: 3;
+}
+.fotorizy img {
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+.fotorizy p {
+    font-size: 17px;
+    font-family: 'Audiowide', sans-serif;
+    padding: 15px 0 0 0;
+}
+.fotoaril{
+    width: 200px;
+    height: 350px;
+    gap: 2rem;
+    border: 7px solid rgb(110, 106, 106);
+    z-index: 3;
+}
+.fotoaril img {
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+.fotoaril p {
+    font-size: 17px;
+    font-family: 'Audiowide', sans-serif;
+    padding: 15px 0 0 28px;
+}
+.pembatas {
+    width: 10vh;
+    height: 5px;
+    background-color: rgb(229, 255, 0);
+}
+.btnleft {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20vh;
+    align-items: center;
+    height: 100%;
+}
+div ul li a {
+    color: rgb(233, 152, 2);
+    font-size: 25px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.butonkontak:hover{
+    transform: scale(1.2);
+    transition-duration: 0.2s;
+    
+}
+section p{
+    font-family: "Teko",sans-serif;
+}
+
+.bayangan {
+    position: absolute;
+}
